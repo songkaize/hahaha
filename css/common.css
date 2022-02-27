@@ -1,0 +1,508 @@
+/* 声明字体图标 这里一定要注意路径的变化 */
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?tomleg');
+    src: url('../fonts/icomoon.eot?tomleg#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?tomleg') format('truetype'), url('../fonts/icomoon.woff?tomleg') format('woff'), url('../fonts/icomoon.svg?tomleg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.focus {
+    position: relative;
+    height: 500px;
+    width: 1535px;
+    overflow: hidden;
+}
+
+.focus ul {
+    float: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 900%;
+}
+
+.focus ul li {
+    float: left;
+}
+
+.focus ul li img {
+    width: 1535px;
+    height: 500px;
+}
+
+.arrow-l,
+.arrow-r {
+    position: absolute;
+    top: 264px;
+    left: 1428px;
+    margin-top: -20px;
+    width: 91px;
+    height: 91px;
+    text-align: center;
+    line-height: 60px;
+    color: #fff;
+    font-family: 'icomoon';
+    font-size: 120px;
+    font-weight: lighter;
+    z-index: 2;
+}
+
+.arrow-r {
+    right: 0;
+}
+
+.arrow-l {
+    left: 0;
+}
+
+.circle {
+    position: absolute;
+    bottom: 10px;
+    left: 502.5px;
+}
+
+.circle li {
+    float: left;
+    width: 15px;
+    height: 15px;
+    /*background-color: #fff;*/
+    margin: 0 3px;
+    border-radius: 50%;
+    /*鼠标经过显示小手*/
+    cursor: pointer;
+    left: 800px;
+    top: 576px;
+    line-height: 20px;
+    /* background-color: rgba(255, 255, 255, 100); */
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    margin-left: 70px;
+}
+
+.current {
+    left: 710px;
+    top: 573px;
+    width: 25px;
+    height: 25px;
+    line-height: 20px;
+    border: 2px solid rgba(187, 187, 187, 100);
+    /* background-color: transparent; */
+    background-color: rgba(225, 220, 213, 100);
+    margin-top: 70px;
+}
+
+.header {
+    position: relative;
+    top: -490px;
+    right: 1px;
+    height: 35px;
+    float: left;
+}
+
+.headersearch {
+    font-family: 'icomoon';
+    position: absolute;
+    margin-left: 1422px;
+    font-size: 22px;
+    border-radius: 50%;
+    border: 2px solid rgba(225, 220, 213, 100);
+    color: rgba(225, 220, 213, 100);
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+}
+
+.header-left {
+    float: left;
+    left: 156px;
+    top: 30px;
+    width: 88px;
+    height: 32px;
+    color: rgba(225, 220, 213, 100);
+    font-size: 16px;
+    text-align: left;
+    font-family: SourceHanSansSC-regular;
+    font-family: 'icomoon';
+    margin-left: 56px;
+}
+
+.header-left ul li {
+    position: absolute;
+    float: left;
+}
+
+.header-left ul .delivery {
+    margin-right: 1px;
+}
+
+.header-left ul .clientserve {
+    margin-left: 100px;
+}
+
+.header-right {
+    float: right;
+    right: 156px;
+    top: 30px;
+    width: 88px;
+    height: 32px;
+    color: rgba(225, 220, 213, 100);
+    font-size: 16px;
+    text-align: left;
+    font-family: SourceHanSansSC-regular;
+    font-family: 'icomoon';
+    margin-left: 1130px;
+}
+
+.header-right ul li {
+    position: absolute;
+    float: right;
+    margin-left: -110px;
+}
+
+.header-right ul .clientserve {
+    margin-left: 1px;
+}
+
+.literal {
+    position: relative;
+    left: 250px;
+    top: -426px;
+    width: 1000px;
+    height: 36px;
+    color: rgba(225, 220, 213, 100);
+    font-size: 20px;
+    text-align: left;
+    font-family: SourceHanSansSC-regular;
+}
+
+.dianming {
+    position: relative;
+    left: 692px;
+    top: -577px;
+    width: 144px;
+    height: 59px;
+    color: rgba(255, 255, 255, 100);
+    font-size: 48px;
+    text-align: center;
+    font-family: MontserratAlternates-regular;
+}
+
+.literal a {
+    float: left;
+    margin-left: 64px;
+}
+
+.charactor {
+    position: relative;
+    left: 610px;
+    top: -414px;
+    width: 292px;
+    height: 84px;
+    color: rgba(255, 255, 255, 100);
+    font-size: 72px;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100px;
+}
+
+.charactors {
+    position: relative;
+    left: 670px;
+    top: -358px;
+    width: 184px;
+    height: 61px;
+    color: rgba(255, 255, 255, 100);
+    font-size: 30px;
+    line-height: 61px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100px;
+    border: 2px solid rgba(225, 220, 213, 100);
+}
+
+.main {
+    width: 1185px;
+    height: 1426px;
+    background-color: pink;
+    background: url("../images/bjt.png") no-repeat center;
+    margin: auto;
+    margin-top: -134px;
+}
+
+.zhubao {
+    float: left;
+    padding-top: 535px;
+    margin-right: 690px;
+    padding-left: 49px;
+}
+
+.zuanjie {
+    float: right;
+    padding-top: 536px;
+    margin-top: -1158px;
+    margin-left: 230px;
+    padding-right: 58px;
+}
+
+.dianjigoumai {
+    padding-top: 1187px;
+    margin-left: 454px;
+}
+
+.wenzi {
+    margin-left: 352px;
+    margin-top: -216px;
+    width: 420px;
+    height: 70px;
+    color: rgba(255, 255, 255, 100);
+    font-size: 60px;
+    text-align: left;
+    font-family: 方正准圆-标准;
+}
+
+.buy {
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 38px;
+}
+
+.shangpinxinxitu {
+    width: 1535px;
+    margin-bottom: 20px;
+}
+
+.biaoti a {
+    padding-top: 10px;
+    left: 54px;
+    top: 3149px;
+    width: 224px;
+    height: 33px;
+    color: rgba(97, 90, 90, 100);
+    font-size: 22px;
+    text-align: left;
+    font-family: 方正准圆-粗;
+}
+
+.lijixuangou {
+    padding-top: 20px;
+    margin-left: -6px;
+}
+
+.shangpingushi {
+    width: 100px;
+    border-bottom: solid 2px;
+    width: 192px;
+    height: 70px;
+    color: rgba(0, 0, 0, 1);
+    font-size: 28px;
+    text-align: center;
+    font-family: SourceHanSansSC-regular;
+    line-height: 70px;
+    margin: auto;
+    margin-top: 61px;
+}
+
+.content {
+    width: 100%;
+    height: 500px;
+    margin-top: 40px;
+}
+
+.first {
+    float: left;
+    width: 30%;
+    height: 500px;
+    margin-left: 36px;
+    margin-right: 1px;
+}
+
+.second {
+    float: left;
+    width: 30%;
+    height: 500px;
+    margin-left: 36px;
+    margin-right: 36px;
+}
+
+.third {
+    float: left;
+    width: 30%;
+    height: 500px;
+    margin-left: 1px;
+    margin-right: 36px;
+}
+
+.firstup {
+    background: url("../images/firstup.jpg") no-repeat center;
+    height: 200px;
+    margin-bottom: 37px;
+}
+
+.firstdown {
+    background: url("../images/firstdown.png") no-repeat center;
+    height: 200px;
+    margin-bottom: 37px;
+}
+
+.thirddown {
+    background: url("../images/thirddown.jpg") no-repeat center;
+    height: 200px;
+    margin-bottom: 37px;
+}
+
+.thirdup {
+    background: url("../images/thirdup1.jpg") no-repeat center;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 37px;
+}
+
+.secondone {
+    background: url("../images/middleone.jpg") no-repeat center;
+    background-size: 459px 594px;
+    height: 569px;
+    margin-bottom: 37px;
+}
+
+.title {
+    left: 128px;
+    top: 3648px;
+    width: 100%;
+    height: 24px;
+    color: rgba(16, 16, 16, 100);
+    font-size: 20px;
+    text-align: left;
+    font-family: 方正兰亭黑-标准;
+    text-align: center;
+    margin-bottom: 37px;
+}
+
+.more {
+    left: 236px;
+    top: 3705px;
+    width: 100%;
+    height: 21px;
+    color: rgba(16, 16, 16, 100);
+    font-size: 18px;
+    text-align: center;
+    font-family: 方正准圆-标准;
+    font-family: 'icomoon';
+    margin-bottom: 50px;
+}
+
+.firstdown {
+    background: url("../images/firstdown.png") no-repeat center;
+    height: 200px;
+    margin-top: 37px;
+}
+
+.beijingtu {
+    position: relative;
+    background: url("../images/guccibjt.jpg") no-repeat center;
+    width: 100%;
+    height: 700px;
+    margin-top: 310px;
+}
+
+.lianming {
+    position: absolute;
+    margin: auto;
+    padding-left: 660px;
+    padding-top: 316px;
+}
+
+.end {
+    position: relative;
+    width: 100%;
+    height: 189px;
+    background-color: black;
+}
+
+.end .fl {
+    margin-left: 45px;
+}
+
+.end .fl li {
+    float: left;
+    left: 39px;
+    top: 5149px;
+    width: 88px;
+    height: 32px;
+    color: rgba(225, 220, 213, 100);
+    font-size: 18px;
+    text-align: center;
+    font-family: SourceHanSansSC-regular;
+    margin-right: 60px;
+    margin-top: 30px;
+}
+
+.end .fr {
+    float: right;
+    width: 231px;
+    height: 36px;
+    color: rgba(225, 220, 213, 100);
+    font-size: 18px;
+    text-align: center;
+    font-family: SourceHanSansSC-regular;
+    margin-right: 308px;
+    margin-top: 32px;
+}
+
+.gzp {
+    margin-bottom: 20px;
+    margin-left: -2px;
+}
+
+.gzp1 {
+    position: absolute;
+    font-size: 12px;
+    margin-top: 158px;
+    margin-left: 1255px;
+}
+
+.gzp2 {
+    margin-top: -19px;
+    padding-right: 7px;
+}
+
+.gzp3 {
+    margin-bottom: 57px;
+    margin-top: 10px;
+    padding-left: 63px;
+}
+
+.search {
+    position: absolute;
+    top: 37px;
+    left: 1259px;
+}
+
+.text {
+    float: left;
+    width: 163px;
+    height: 32px;
+    border: 2px solid rgba(225, 220, 213, 100);
+    padding-left: 39px;
+    color: rgba(225, 220, 213, 100);
+    background-color: black;
+}
+
+.search1 {
+    position: absolute;
+    top: 104px;
+    left: 1167px;
+}
+
+.select {
+    float: left;
+    width: 115px;
+    height: 32px;
+    border: 2px solid rgba(225, 220, 213, 100);
+    padding-left: 19px;
+    color: rgba(225, 220, 213, 100);
+    background-color: black;
+    margin-right: 28px;
+}
